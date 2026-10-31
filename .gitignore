@@ -12,7 +12,7 @@ build/
 .ipynb_checkpoints/
 
 # Scraped and cached data stays local (see docs/prd.md: "the repo ships code, never the data")
-data/
+/data/
 
 # OS / editor
 .DS_Store
