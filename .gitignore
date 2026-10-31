@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Scraped and cached data stays local (see docs/prd.md: "the repo ships code, never the data")
+data/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Secrets (API-Football key etc.)
+.env
